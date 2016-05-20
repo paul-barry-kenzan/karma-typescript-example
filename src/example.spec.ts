@@ -1,6 +1,6 @@
 'use strict';
 
-import { Hero } from './1st';
+import { Hero } from './example';
 
 describe('First Test Suite', () => {
 
