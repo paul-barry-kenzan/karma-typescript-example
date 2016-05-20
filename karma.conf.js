@@ -10,9 +10,7 @@ module.exports = function (config) {
       {pattern: 'node_modules/systemjs/dist/system-polyfills.js', included: true, watched: true},
       {pattern: 'karma-test-shim.js', included: true, watched: true},
 
-      {pattern: 'src/**/*.ts', included: false, watched: true},
-
-      {pattern: 'dist/**/*.js.map', included: false, watched: false}
+      {pattern: 'src/**/*.ts', included: false, watched: true}
     ],
     preprocessors: {
       '**/*.ts': ['typescript']
