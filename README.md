@@ -2,6 +2,14 @@
 
 This is an example of running Karma with a pure TypeScript code base. By using [karma-typescript-preprocessor](https://github.com/sergeyt/karma-typescript-preprocessor), there is no need to transpile the TypeScript source files before running Karma, reserving that step for the build tasks.
 
+## Requirements
+
+- [TypeScript](https://www.typescriptlang.org)
+- [Karma](http://karma-runner.github.io/1.0/index.html)
+- [karma-typescript-preprocessor](https://www.npmjs.com/package/karma-typescript-preprocessor)
+- [typings](https://github.com/typings/typings)
+
+
 ## Testing
 There is a single test that simply checks if a property of a new interfaced Object is correct. Although the test is simple, and only a few lines, it demonstrates that TypeScript can be used with Karma.
 
